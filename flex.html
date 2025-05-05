@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,55 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="flex.css">
 </head>
-<body >
+
+<body>
     <div id="sfondo">
-        <img src="immagini/profile.jpg" alt="sfondo ape">
+
     </div>
     <header>
-        <nav>
-         
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#"><img src="immagini/logo.png" alt="our logo"> Our Honey</a> </li>
+                <li><a href="#"><img src="immagini/logo.png" alt="trace logo">Trace Honey</a> </li>
+                <li><a href="#"><img src="immagini/logo.png" alt="Facilities logo">Facilities</a></li>
+                <li><a href="#"><img src="immagini/logo.png" alt="Contacts logo">Contacts</a></li>
+            </ul>
         </nav>
+
+
     </header>
     <main>
-        <article>
-            <div></div>
-            <div></div>
+        <article class="articolo">
+            <div class="immagine">
+                <img src="immagini/honey.jpg" alt="miele">
+            </div>
+            <div class="testo">
+                <h1>Our delicious honey</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque voluptates nesciunt corporis dicta earum omnis
+                    nisi rem. Architecto porro, sequi iure explicabo sint
+                    voluptatem, soluta modi magnam ad autem tempora.</p>
+            </div>
         </article>
     </main>
-    <section class="card">
+    <section class="sezione-prodotto">
+        <div class="card">
+            <img src="immagini/honey.jpg" alt="miele">
 
+            <div class="contenuto-card">
+                <div>
+                    <h4>100% Bio Honey</h4>
+                    <p>italiano,non trattato</p>
+                </div>
+                <div>
+                    <span class="prezzo">€7/kg</span>
+                </div>
+            </div>
+            <div class="card-info">
+                <button class="aggiungi">Aggiungi al carrello</button>
+            </div>
+        </div>
     </section>
 </body>
+
 </html>
